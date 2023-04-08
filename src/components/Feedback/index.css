@@ -1,0 +1,55 @@
+/* Write your CSS code here. */
+.container {
+  display: flex;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding: 32px;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #0f172a;
+}
+.emoji-list {
+  display: flex;
+  align-items: space-around;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 32px;
+}
+.btn {
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.emoji-img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+.emoji-name {
+  font-size: 16px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
